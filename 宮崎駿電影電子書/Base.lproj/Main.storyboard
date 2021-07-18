@@ -575,15 +575,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gR-gv-HQ0">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orx-PR-FEw">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -591,7 +591,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="P6e-RB-aCI" kind="show" id="O8n-jC-vBD"/>
+                                    <segue destination="P6e-RB-aCI" kind="show" id="Ype-Nw-gom"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -657,15 +657,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCb-rY-dmL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnd-91-nBL">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -673,7 +673,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Igk-cv-V7U" kind="show" id="gsy-98-yDO"/>
+                                    <segue destination="Igk-cv-V7U" kind="show" id="PWT-hs-GdF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -736,15 +736,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1E-lB-6xQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dG9-EQ-eMr">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -752,7 +752,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="0EW-Kh-wB9" kind="show" id="6d1-Mb-W8p"/>
+                                    <segue destination="0EW-Kh-wB9" kind="show" id="MFp-rm-Iuw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -811,15 +811,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAN-3Y-JaF">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oo-sc-fdG">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -827,7 +827,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="jnr-T7-4PU" kind="show" id="U8X-cR-QJj"/>
+                                    <segue destination="jnr-T7-4PU" kind="show" id="Cbq-OR-evV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -886,15 +886,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY7-bf-SOS">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQW-nz-b2a">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -902,7 +902,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="naf-3l-gdb" kind="show" id="voi-AJ-KDh"/>
+                                    <segue destination="naf-3l-gdb" kind="show" id="8YK-VX-b6u"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -974,15 +974,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="26"/>
-                                    <color key="baseForegroundColor" red="0.69011354472608" green="0.77000894108684881" blue="0.86847251653671265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="HCx-Xl-6Kp" kind="show" id="ROY-uO-mnG"/>
@@ -1054,15 +1054,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-v9-51p">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIb-SN-F6Z">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -1070,7 +1070,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="HVc-8b-ckA" kind="show" id="9fD-Pv-OaZ"/>
+                                    <segue destination="HVc-8b-ckA" kind="show" id="IMY-v9-BtF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1131,15 +1131,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYE-LS-6iJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dei-Kf-3yc">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -1147,7 +1147,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="J9U-7P-QmY" kind="show" id="BVb-w0-K8D"/>
+                                    <segue destination="J9U-7P-QmY" kind="show" id="i0n-60-1gg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1206,15 +1206,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQF-po-Jix">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLy-b4-Dfc">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -1222,7 +1222,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="0KA-zq-Gce" kind="show" id="lmZ-ne-t9X"/>
+                                    <segue destination="0KA-zq-Gce" kind="show" id="ZYD-ON-smN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1285,15 +1285,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R16-B6-cvn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGY-9a-dbA">
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="photo" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color red="0.86847251653671265" green="0.61082072296888623" blue="0.69153410801751924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
@@ -1301,7 +1301,7 @@
                                     <color key="baseForegroundColor" red="0.69011354469999997" green="0.77000894109999996" blue="0.86847251650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="WPl-TP-UpL" kind="show" id="GkJ-NW-2T7"/>
+                                    <segue destination="WPl-TP-UpL" kind="show" id="OIL-xe-3yH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3413,11 +3413,13 @@
             </objects>
             <point key="canvasLocation" x="5213.04347826087" y="-1941.2946428571427"/>
         </scene>
-        <!--Item-->
+        <!--圖片及音樂-->
         <scene sceneID="a1r-x1-m7k">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Dfu-xc-loC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="NsJ-k8-DfT"/>
+                    <tabBarItem key="tabBarItem" title="圖片及音樂" id="NsJ-k8-DfT">
+                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tGk-NL-Nfx">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -3432,11 +3434,13 @@
             </objects>
             <point key="canvasLocation" x="16051" y="-893"/>
         </scene>
-        <!--Item-->
+        <!--電影簡介-->
         <scene sceneID="fus-Bt-eF9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="gPH-Z4-YRu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="uOb-em-Rm9"/>
+                    <tabBarItem key="tabBarItem" title="電影簡介" id="uOb-em-Rm9">
+                        <imageReference key="image" image="book.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SZw-cQ-RWI">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -3472,11 +3476,13 @@
             </objects>
             <point key="canvasLocation" x="15045" y="-1227"/>
         </scene>
-        <!--Item-->
+        <!--小遊戲-->
         <scene sceneID="uQS-pI-lHt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iQG-6A-MCC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="aBJ-R6-d1V"/>
+                    <tabBarItem key="tabBarItem" title="小遊戲" id="aBJ-R6-d1V">
+                        <imageReference key="image" image="gamecontroller.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iOm-KJ-jbF">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -3493,21 +3499,24 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jjg-zH-BI4"/>
-        <segue reference="jhU-AG-IcP"/>
-        <segue reference="B6H-93-edr"/>
-        <segue reference="KNQ-Qv-mVm"/>
-        <segue reference="VHf-k6-mCv"/>
-        <segue reference="qLL-Kh-dZT"/>
-        <segue reference="LJY-Dg-VPi"/>
-        <segue reference="b6G-Hc-HIP"/>
-        <segue reference="MWi-lp-V6J"/>
-        <segue reference="y4Y-FG-K3M"/>
+        <segue reference="OIL-xe-3yH"/>
+        <segue reference="ZYD-ON-smN"/>
+        <segue reference="i0n-60-1gg"/>
+        <segue reference="IMY-v9-BtF"/>
+        <segue reference="8YK-VX-b6u"/>
+        <segue reference="MFp-rm-Iuw"/>
+        <segue reference="Cbq-OR-evV"/>
+        <segue reference="PWT-hs-GdF"/>
+        <segue reference="Ype-Nw-gom"/>
+        <segue reference="ROY-uO-mnG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="400px-Joe_Hisaishi_2011" width="400" height="567"/>
         <image name="Hayao_Miyazaki" width="356" height="500"/>
-        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="gamecontroller.fill" catalog="system" width="128" height="80"/>
+        <image name="music.note.list" catalog="system" width="128" height="115"/>
+        <image name="photo.on.rectangle.angled" catalog="system" width="128" height="100"/>
         <image name="thumb-chihiro006" width="300" height="162"/>
         <image name="thumb-chihiro013" width="300" height="162"/>
         <image name="thumb-chihiro014" width="300" height="162"/>
