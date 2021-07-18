@@ -1602,7 +1602,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="2000" height="275"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-ZE-v94">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-ZE-v94" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="15" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1612,7 +1612,7 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="HCx-Xl-6Kp" kind="show" id="vN2-DW-Jic"/>
+                                                                    <segue destination="HCx-Xl-6Kp" kind="show" id="y4Y-FG-K3M"/>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="《風之谷》" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlw-qP-V3H">
@@ -1622,7 +1622,7 @@
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaB-C1-xyR">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaB-C1-xyR" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="220" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1632,10 +1632,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="HVc-8b-ckA" kind="show" id="g7H-RH-3gJ"/>
+                                                                    <segue destination="HVc-8b-ckA" kind="show" id="KNQ-Qv-mVm"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B59-Ii-FXR">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B59-Ii-FXR" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="425" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1645,10 +1645,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="J9U-7P-QmY" kind="show" id="gsX-QC-kdZ"/>
+                                                                    <segue destination="J9U-7P-QmY" kind="show" id="B6H-93-edr"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-Ka-WMh">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-Ka-WMh" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="630" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1658,10 +1658,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="0KA-zq-Gce" kind="show" id="JBS-H2-nw8"/>
+                                                                    <segue destination="0KA-zq-Gce" kind="show" id="jhU-AG-IcP"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm2-LZ-DqM">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm2-LZ-DqM" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="825" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1671,10 +1671,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="WPl-TP-UpL" kind="show" id="VcO-mS-Phg"/>
+                                                                    <segue destination="WPl-TP-UpL" kind="show" id="jjg-zH-BI4"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awq-fM-a8Q">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awq-fM-a8Q" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="1020" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1684,10 +1684,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="P6e-RB-aCI" kind="show" id="haU-In-3SG"/>
+                                                                    <segue destination="P6e-RB-aCI" kind="show" id="MWi-lp-V6J"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-5z-gts">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-5z-gts" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="1215" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1697,10 +1697,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="Igk-cv-V7U" kind="show" id="7Ea-IL-zvK"/>
+                                                                    <segue destination="Igk-cv-V7U" kind="show" id="b6G-Hc-HIP"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQI-Qt-u49">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQI-Qt-u49" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="1410" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1710,10 +1710,10 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="0EW-Kh-wB9" kind="show" id="UDk-zu-0Tv"/>
+                                                                    <segue destination="0EW-Kh-wB9" kind="show" id="qLL-Kh-dZT"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIB-mC-a19">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIB-mC-a19" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="1605" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1723,20 +1723,20 @@
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="jnr-T7-4PU" kind="show" id="pZc-1w-gIl"/>
+                                                                    <segue destination="jnr-T7-4PU" kind="show" id="LJY-Dg-VPi"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxp-Ri-s1z">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxp-Ri-s1z" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="1800" y="27" width="180" height="180"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
                                                                     <backgroundConfiguration key="background" imageContentMode="scaleAspectFill">
-                                                                        <imageReference key="image" image="thumb-howl049"/>
+                                                                        <imageReference key="image" image="thumb-kazetachinu016"/>
                                                                     </backgroundConfiguration>
                                                                 </buttonConfiguration>
                                                                 <connections>
-                                                                    <segue destination="naf-3l-gdb" kind="show" id="Fj2-qj-47q"/>
+                                                                    <segue destination="naf-3l-gdb" kind="show" id="VHf-k6-mCv"/>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="《天空之城》" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-J8-ddK">
@@ -1823,7 +1823,7 @@
                                                 <color key="textColor" red="0.42680304941504887" green="0.36293714151202805" blue="0.27357378001359201" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="吉卜力開源圖片" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-eg-dN8">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="吉卜力開源圖片🖌" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-eg-dN8">
                                                 <rect key="frame" x="35" y="8" width="303" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -1852,7 +1852,7 @@
                                                                 <color key="textColor" red="0.42680304940000002" green="0.3629371415" blue="0.27357377999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqD-Md-FNg">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqD-Md-FNg" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="100" y="45" width="240" height="305"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1865,7 +1865,7 @@
                                                                     <segue destination="A97-In-ysj" kind="show" id="pKy-WC-8di"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI9-7F-jfR">
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI9-7F-jfR" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                                                 <rect key="frame" x="523" y="44" width="240" height="305"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" title="Button"/>
@@ -1919,7 +1919,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbe-ZX-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16960.869565217392" y="-903.34821428571422"/>
+            <point key="canvasLocation" x="16961" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FUY-iq-Fg4">
@@ -1929,7 +1929,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-7h-wHD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOTORO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVN-2T-odZ">
+                                <rect key="frame" x="173" y="495" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-7h-wHD" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
                                 <rect key="frame" x="118" y="280" width="178" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -1942,13 +1949,6 @@
                                     <segue destination="eU8-XR-eiL" kind="presentation" id="qR1-bN-bd3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOTORO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVN-2T-odZ">
-                                <rect key="frame" x="173" y="495" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bna-92-Zyx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2041,7 +2041,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbh-Ej-WOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17668" y="-903"/>
+            <point key="canvasLocation" x="18297" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gsz-K9-TZy">
@@ -2087,7 +2087,381 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOy-7B-MjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17676.8115942029" y="-270.53571428571428"/>
+            <point key="canvasLocation" x="17668" y="-271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8g1-rg-xbY">
+            <objects>
+                <viewController id="vWq-56-LRd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="out-hW-Opq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pt8-19-Kmk">
+                                <rect key="frame" x="122" y="413" width="171" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.92357516129999995" green="0.60451066412893284" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="九宮格小遊戲🎮" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <color key="baseForegroundColor" red="0.86847251650000001" green="0.44126011809999999" blue="0.49414343220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="djR-Au-ID2" kind="show" id="xJw-et-qot"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QKI-wV-GBm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hf5-TM-jsG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZwO-Gj-71l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17831.884057971016" y="401.78571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RPR-hr-fox">
+            <objects>
+                <viewController id="djR-Au-ID2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5SO-Ge-bja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlo-wF-fIx">
+                                <rect key="frame" x="60" y="340" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Zub-33-ZbX">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9f4-eg-UkD">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWn-cS-uG6">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D87-AP-hsV">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="ykm-Ps-Ipj"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="1Gg-dY-Ztx"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="4XP-ad-GkS"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Oq-a7-tkt">
+                                <rect key="frame" x="60" y="394" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="0ro-Mf-JbV">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ngy-st-WLW">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0B-98-aft">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3MQ-x6-hn9">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="BNA-vr-Thl"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="8IA-H7-yma"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3vb-wQ-FIF"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0i3-OL-V6T">
+                                <rect key="frame" x="60" y="448" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="ThD-1Z-VVX">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8z3-fF-YFZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Gr-ZT-NWA">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeF-ik-bV8">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="ajb-EB-AAA"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="IHh-Sl-T1K"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="LM3-Ue-cB7"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRD-HT-yq8">
+                                <rect key="frame" x="160" y="340" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="eBU-9m-Fwq">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ca-O2-Pga">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJH-4T-6Nm">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmC-XP-j3A">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="0ZC-x0-kgK"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ndt-zV-TfK"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="vO5-bE-v04"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7n-df-2yf">
+                                <rect key="frame" x="160" y="394" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="B8Y-HK-Dk5">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91y-AA-18P">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8y3-LG-UjM">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gbq-MR-k9w">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="TuO-Iv-k58"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Qn1-lu-EfR"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="lHX-Lv-V1h"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UfJ-93-lbO">
+                                <rect key="frame" x="260" y="394" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="a4m-Mq-BZ9">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Gc-YZ-IWe">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-MH-GOc">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yyF-S2-W0r">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="UUJ-kr-iXy"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="rP0-kt-eoR"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="gGz-TX-4Yw"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1x7-tO-TGw">
+                                <rect key="frame" x="260" y="448" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="krx-u1-HDX">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Tm-OU-wYP">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaV-55-4Ij">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MZn-gl-saw">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="nWz-sT-0Yt"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="MNX-IR-24j"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dCI-xg-GmF"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQR-NU-rtp">
+                                <rect key="frame" x="260" y="340" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="tGM-zp-5rD">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ioe-wn-j42">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFO-bm-ea1">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ql0-BQ-4Gp">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="4tD-t3-Atx"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="XaL-4g-8Xx"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="eV5-jN-lcv"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2RI-CO-5xk">
+                                <rect key="frame" x="160" y="448" width="100" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="HoO-pC-aXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIT-vm-CnX">
+                                                <rect key="frame" x="100" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo011"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maa-SU-vuf">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo032"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2z-nG-ads">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageReference key="image" image="thumb-majo043"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="afC-lZ-imS"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="P3q-L4-Rwo"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="9tU-bF-rPK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="300" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zcX-pw-rVG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WrY-E2-tKm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaz-qZ-sJc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18576.8115942029" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rll-8Q-4gH">
@@ -2106,7 +2480,7 @@
                                 <rect key="frame" x="64" y="430" width="286" height="398"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">從他4歲開始，久石讓在鈴木鎮一的音樂教室裡學習小提琴，之後，在中學演奏部社團擔任小號手，並在此時期興起從事作曲家的念頭。
+                                <string key="text">從他4歲開始，久石讓在鈴木鎮一的音樂教室裡學習小提琴，之後，在中學演奏部社團擔任小號手，並在此時期興起從事作曲家的念頭。
 
 1969年，久石讓進入國立音樂大學，就讀作曲科，並在校內教授島岡讓名下學習。而大學期間久石讓開始受到簡約音樂的風格影響，並曾嘗試分析菲利普·格拉斯或特里·賴利等簡約音樂樂曲家的作品內容。
 
@@ -2120,7 +2494,7 @@
 
 2016年與新日本愛樂WORLD DREAM交響樂團一同來台，其中新專輯中的《THE EAST LAND SYMPHONY》和《Princess Mononoke》交響樂作品更是世界首演。
 
-</mutableString>
+</string>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2231,7 +2605,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyH-sL-Pm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20819" y="-903"/>
+            <point key="canvasLocation" x="21448" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tq2-E3-yd1">
@@ -2315,7 +2689,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8He-oi-uhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21448" y="-903"/>
+            <point key="canvasLocation" x="22061" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m0n-Mv-SEd">
@@ -2399,7 +2773,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-ol-nAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22716" y="-903"/>
+            <point key="canvasLocation" x="23335" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yxL-gp-2oK">
@@ -2483,7 +2857,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbe-Mh-akZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22061" y="-903"/>
+            <point key="canvasLocation" x="22716" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rV0-1J-Jfg">
@@ -2567,7 +2941,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOc-w4-vGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23335" y="-903"/>
+            <point key="canvasLocation" x="23971" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6qA-KE-WC0">
@@ -2676,7 +3050,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfO-36-w6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18297" y="-903"/>
+            <point key="canvasLocation" x="18932" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XVy-hr-Acw">
@@ -2785,7 +3159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iy-pK-FNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18932" y="-903"/>
+            <point key="canvasLocation" x="19567" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F6r-y7-QvI">
@@ -2894,7 +3268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPp-aR-JCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19567" y="-903"/>
+            <point key="canvasLocation" x="20184" y="-893"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DST-wR-ReD">
@@ -3003,7 +3377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4X-KJ-CCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20184" y="-903"/>
+            <point key="canvasLocation" x="20819" y="-893"/>
         </scene>
         <!--Item-->
         <scene sceneID="JUc-Q9-rRe">
@@ -3091,24 +3465,44 @@
                     <connections>
                         <segue destination="gPH-Z4-YRu" kind="relationship" relationship="viewControllers" id="aOQ-20-fZp"/>
                         <segue destination="Dfu-xc-loC" kind="relationship" relationship="viewControllers" id="OG3-Df-dgz"/>
+                        <segue destination="iQG-6A-MCC" kind="relationship" relationship="viewControllers" id="SIt-1i-HPY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HjZ-LS-YmY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15045" y="-1227"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="uQS-pI-lHt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iQG-6A-MCC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="aBJ-R6-d1V"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iOm-KJ-jbF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vWq-56-LRd" kind="relationship" relationship="rootViewController" id="Ntp-tk-kuU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWw-9c-Kg1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16051" y="402"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VcO-mS-Phg"/>
-        <segue reference="JBS-H2-nw8"/>
-        <segue reference="gsX-QC-kdZ"/>
-        <segue reference="9fD-Pv-OaZ"/>
-        <segue reference="voi-AJ-KDh"/>
-        <segue reference="6d1-Mb-W8p"/>
-        <segue reference="U8X-cR-QJj"/>
-        <segue reference="7Ea-IL-zvK"/>
-        <segue reference="haU-In-3SG"/>
-        <segue reference="ROY-uO-mnG"/>
+        <segue reference="jjg-zH-BI4"/>
+        <segue reference="jhU-AG-IcP"/>
+        <segue reference="B6H-93-edr"/>
+        <segue reference="KNQ-Qv-mVm"/>
+        <segue reference="VHf-k6-mCv"/>
+        <segue reference="qLL-Kh-dZT"/>
+        <segue reference="LJY-Dg-VPi"/>
+        <segue reference="b6G-Hc-HIP"/>
+        <segue reference="MWi-lp-V6J"/>
+        <segue reference="y4Y-FG-K3M"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="400px-Joe_Hisaishi_2011" width="400" height="567"/>

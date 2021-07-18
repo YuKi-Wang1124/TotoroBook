@@ -21,3 +21,21 @@ class ViewController:
   
 }
 
+
+
+
+class ImageButton: UIButton {
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        configurationUpdateHandler = { button in
+            
+            button.alpha = button.isHighlighted ? 0.5 : 1
+        }
+    }
+    
+ 
+}
+
+
