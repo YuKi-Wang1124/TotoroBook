@@ -50,11 +50,16 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="AUn-Uc-9D4">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
                         <sections>
                             <tableViewSection headerTitle="宮崎駿電影列表(按年份）🎞" id="xKc-Uh-7Yp">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="5cP-iT-ObH">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="94" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5cP-iT-ObH" id="Szt-f4-RRo">
                                             <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
@@ -94,7 +99,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="X5P-4v-XTj">
-                                        <rect key="frame" x="0.0" y="442" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="486" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X5P-4v-XTj" id="5Rc-FU-dNi">
                                             <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
@@ -134,10 +139,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="lMS-Nz-nQY">
-                                        <rect key="frame" x="0.0" y="834" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="878" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lMS-Nz-nQY" id="RdI-13-cS0">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z2Z-fN-RS6">
@@ -174,7 +179,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="FFI-I2-cAW">
-                                        <rect key="frame" x="0.0" y="1226" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="1270" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FFI-I2-cAW" id="HSM-1M-3If">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -214,7 +219,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="fVg-dW-5KM">
-                                        <rect key="frame" x="0.0" y="1618" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="1662" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fVg-dW-5KM" id="Lld-LK-nhl">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -254,7 +259,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="i4h-gr-WDb">
-                                        <rect key="frame" x="0.0" y="2010" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="2054" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i4h-gr-WDb" id="xRD-9N-aLG">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -294,7 +299,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="nYy-QR-CSD">
-                                        <rect key="frame" x="0.0" y="2402" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="2446" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nYy-QR-CSD" id="Hc3-H7-Bp2">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -334,7 +339,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="Hg5-oY-Trl">
-                                        <rect key="frame" x="0.0" y="2794" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="2838" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hg5-oY-Trl" id="EjR-jb-zRJ">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -374,7 +379,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="aEv-af-3zn">
-                                        <rect key="frame" x="0.0" y="3186" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="3230" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aEv-af-3zn" id="9L6-7E-4ra">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -414,7 +419,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="h27-kG-FXQ">
-                                        <rect key="frame" x="0.0" y="3578" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="3622" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h27-kG-FXQ" id="AeY-l1-vZJ">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -454,7 +459,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="OAF-af-faJ">
-                                        <rect key="frame" x="0.0" y="3970" width="414" height="392"/>
+                                        <rect key="frame" x="0.0" y="4014" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OAF-af-faJ" id="sPH-bU-IFu">
                                             <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
@@ -1367,6 +1372,37 @@
             </objects>
             <point key="canvasLocation" x="21728.98550724638" y="-1568.3035714285713"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1Vt-E0-tI0">
+            <objects>
+                <viewController id="laL-6Y-GLX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YXf-0L-Jfz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQ8-o7-mfu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="nb2-Zd-JU0" kind="embed" id="xxs-4m-RDg"/>
+                                </connections>
+                            </containerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-AL-AR8">
+                                <rect key="frame" x="-50" y="-31" width="716" height="958"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <imageReference key="image" image="天空之城手機桌布"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rrF-iD-dkn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uXS-jL-BXz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxh-Fq-wOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18743.478260869568" y="-877.23214285714278"/>
+        </scene>
         <!--電影圖片及主題曲                    -->
         <scene sceneID="Eh5-mK-1RQ">
             <objects>
@@ -1375,12 +1411,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ac2-JC-8zO">
-                                <rect key="frame" x="-423" y="-390" width="837" height="1599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="天空之城手機桌布"/>
-                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hr-K3-Ykm">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1976,20 +2006,20 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U0i-lU-5UP"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="電影圖片及主題曲                    " id="4rg-6p-Tw4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbe-ZX-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18531.884057971016" y="-877.23214285714278"/>
+            <point key="canvasLocation" x="19442.028985507248" y="-877.23214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X5G-7P-2u8">
             <objects>
                 <viewController id="HCx-Xl-6Kp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B9Y-rC-3TO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nv-4a-SOF">
@@ -2066,14 +2096,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbh-Ej-WOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19205.797101449276" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="20115.942028985508" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gsz-K9-TZy">
             <objects>
                 <viewController id="A97-In-ysj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9uZ-Ut-ubg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vR5-sE-k2U">
@@ -2112,7 +2142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOy-7B-MjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18576.8115942029" y="-271.20535714285711"/>
+            <point key="canvasLocation" x="19486.956521739132" y="-271.20535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8g1-rg-xbY">
@@ -2176,15 +2206,6 @@
                                             <segue destination="djR-Au-ID2" kind="show" id="Dcq-Yu-06R"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="九宮格小遊戲 🎮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ey-Kh-cFU">
-                                        <rect key="frame" x="0.0" y="130" width="414" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.98571056509999999" green="1" blue="0.81136611680000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                        <color key="textColor" red="0.42972680289999998" green="0.36542339070000002" blue="0.27544785820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bug-Iq-bEs">
                                         <rect key="frame" x="215" y="530" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2578,7 +2599,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaz-qZ-sJc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21381.159420289856" y="401.78571428571428"/>
+            <point key="canvasLocation" x="20554" y="402"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fGm-7m-gHP">
@@ -2935,7 +2956,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCf-uS-SnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20708.695652173916" y="401.78571428571428"/>
+            <point key="canvasLocation" x="19881" y="402"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8p2-5b-Drv">
@@ -3292,7 +3313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5BT-fu-66D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20084.057971014496" y="401.78571428571428"/>
+            <point key="canvasLocation" x="19206" y="402"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qPw-kl-hab">
@@ -3656,7 +3677,7 @@
             <objects>
                 <viewController id="ISr-z5-ZIc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S5v-0n-rQy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ypo-Yk-JGE">
@@ -3709,14 +3730,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTA-TY-Ph6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19205.797101449276" y="-271.20535714285711"/>
+            <point key="canvasLocation" x="20115.942028985508" y="-271.20535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IRH-M3-8QG">
             <objects>
                 <viewController id="P6e-RB-aCI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zK2-AW-GFC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGM-kS-JGM">
@@ -3793,14 +3814,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyH-sL-Pm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22357.971014492756" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="23268.115942028988" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tq2-E3-yd1">
             <objects>
                 <viewController id="Igk-cv-V7U" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8zr-kZ-4Vp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YV7-Wt-aiw">
@@ -3877,14 +3898,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8He-oi-uhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22971.014492753624" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="23881.159420289856" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m0n-Mv-SEd">
             <objects>
                 <viewController id="jnr-T7-4PU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DgT-Jm-aaF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kyz-zT-kUU">
@@ -3961,14 +3982,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-ol-nAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24244.927536231888" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="25155.07246376812" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yxL-gp-2oK">
             <objects>
                 <viewController id="0EW-Kh-wB9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2np-Dr-V0R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vW7-6a-6bc">
@@ -4045,14 +4066,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbe-Mh-akZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23626.08695652174" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="24536.231884057972" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rV0-1J-Jfg">
             <objects>
                 <viewController id="naf-3l-gdb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tb9-Bm-X2A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TPe-xd-aLO">
@@ -4129,14 +4150,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOc-w4-vGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24879.71014492754" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="25789.855072463772" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6qA-KE-WC0">
             <objects>
                 <viewController id="HVc-8b-ckA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kce-xF-NqU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p1H-WS-xVq">
@@ -4238,14 +4259,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfO-36-w6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19842.028985507248" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="20752.17391304348" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XVy-hr-Acw">
             <objects>
                 <viewController id="J9U-7P-QmY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iyW-tR-3Mr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2wI-e9-Ohs">
@@ -4347,14 +4368,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iy-pK-FNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20476.8115942029" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="21386.956521739132" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F6r-y7-QvI">
             <objects>
                 <viewController id="0KA-zq-Gce" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B4d-s7-MRM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PgG-pW-spK">
@@ -4456,14 +4477,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPp-aR-JCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21092.753623188408" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="22002.89855072464" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DST-wR-ReD">
             <objects>
                 <viewController id="WPl-TP-UpL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ASs-03-Wlo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lfl-rC-Z5I">
@@ -4565,7 +4586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4X-KJ-CCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21728.98550724638" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="22639.130434782612" y="-893.30357142857133"/>
         </scene>
         <!--Item-->
         <scene sceneID="JUc-Q9-rRe">
@@ -4614,8 +4635,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="edo-UP-sBX" kind="relationship" relationship="viewControllers" id="3rj-AS-MRR"/>
-                        <segue destination="aCy-AN-JHG" kind="relationship" relationship="viewControllers" id="8oK-Mw-j8j"/>
-                        <segue destination="iME-1G-h1c" kind="relationship" relationship="viewControllers" id="FlS-m6-rh3"/>
+                        <segue destination="VPa-5Y-yAi" kind="relationship" relationship="viewControllers" id="sLU-OA-TJa"/>
+                        <segue destination="iME-1G-h1c" kind="relationship" relationship="viewControllers" id="Eh1-Qu-KzH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HjZ-LS-YmY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -4644,27 +4665,6 @@
             </objects>
             <point key="canvasLocation" x="16051" y="-1568"/>
         </scene>
-        <!--圖片及音樂-->
-        <scene sceneID="inB-Qp-ihH">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aCy-AN-JHG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="圖片及音樂" id="EyM-go-TJG">
-                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3zG-OA-d37">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="nb2-Zd-JU0" kind="relationship" relationship="rootViewController" id="czB-Mc-ZGf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VpD-kU-ijX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16051" y="-877"/>
-        </scene>
         <!--小遊戲-->
         <scene sceneID="04N-AY-6uj">
             <objects>
@@ -4685,6 +4685,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7s-HM-NST" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="16051" y="306"/>
+        </scene>
+        <!--圖片及音樂-->
+        <scene sceneID="IOn-pi-R5L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VPa-5Y-yAi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="圖片及音樂" id="sdl-Oq-Q2I">
+                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TGv-fF-ORI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="laL-6Y-GLX" kind="relationship" relationship="rootViewController" id="soD-Od-3ty"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2M-KG-7UV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16051" y="-862"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
