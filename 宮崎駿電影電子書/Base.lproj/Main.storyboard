@@ -973,7 +973,7 @@
                                 <rect key="frame" x="295" y="415" width="75" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
                                     <imageReference key="image" image="photo.on.rectangle.angled" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                         <hierarchicalColors>
                                             <color red="0.59249851114726981" green="0.78917388369770292" blue="0.89528054902047827" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -981,8 +981,11 @@
                                             <color red="0.92357516129999995" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </hierarchicalColors>
                                     </imageReference>
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="26"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" red="0.93618789830000004" green="0.81354548319999997" blue="0.90698347359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="HCx-Xl-6Kp" kind="show" id="ROY-uO-mnG"/>
@@ -1314,7 +1317,7 @@
             </objects>
             <point key="canvasLocation" x="20818.840579710148" y="-1568.3035714285713"/>
         </scene>
-        <!--電影圖片及主題曲-->
+        <!--電影圖片及主題曲                    -->
         <scene sceneID="Eh5-mK-1RQ">
             <objects>
                 <viewController modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="nb2-Zd-JU0" sceneMemberID="viewController">
@@ -1915,7 +1918,7 @@
                         <viewLayoutGuide key="safeArea" id="U0i-lU-5UP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="電影圖片及主題曲" id="4rg-6p-Tw4"/>
+                    <navigationItem key="navigationItem" title="電影圖片及主題曲                    " id="4rg-6p-Tw4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbe-ZX-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2111,21 +2114,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Taa-uq-Lib">
-                                        <rect key="frame" x="122" y="250" width="170" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="龍貓" cornerStyle="capsule">
-                                            <backgroundConfiguration key="background"/>
-                                            <color key="baseForegroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="baseBackgroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="TYt-BS-Qwr" kind="show" id="5L0-me-Iyh"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bug-Iq-bEs">
                                         <rect key="frame" x="122" y="360" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2190,6 +2178,21 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.93618789830000004" green="0.81354548319999997" blue="0.90698347359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU0-4l-vAR">
+                                        <rect key="frame" x="122" y="250" width="170" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="龍貓" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background"/>
+                                            <color key="baseForegroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="TYt-BS-Qwr" kind="show" id="CZG-rJ-eHN"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="nrP-ug-Ub7"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -4682,16 +4685,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OIL-xe-3yH"/>
-        <segue reference="ZYD-ON-smN"/>
+        <segue reference="jjg-zH-BI4"/>
+        <segue reference="jhU-AG-IcP"/>
         <segue reference="i0n-60-1gg"/>
-        <segue reference="IMY-v9-BtF"/>
-        <segue reference="8YK-VX-b6u"/>
-        <segue reference="MFp-rm-Iuw"/>
-        <segue reference="Cbq-OR-evV"/>
-        <segue reference="PWT-hs-GdF"/>
-        <segue reference="Ype-Nw-gom"/>
-        <segue reference="ROY-uO-mnG"/>
+        <segue reference="KNQ-Qv-mVm"/>
+        <segue reference="VHf-k6-mCv"/>
+        <segue reference="qLL-Kh-dZT"/>
+        <segue reference="LJY-Dg-VPi"/>
+        <segue reference="b6G-Hc-HIP"/>
+        <segue reference="MWi-lp-V6J"/>
+        <segue reference="y4Y-FG-K3M"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="400px-Joe_Hisaishi_2011" width="400" height="567"/>
