@@ -9,14 +9,47 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="r8b-Vx-Fzg">
+            <objects>
+                <viewController id="Yf0-ny-U3U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Shj-43-qpA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-TG-YVx">
+                                <rect key="frame" x="0.0" y="-120" width="601" height="1137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <imageReference key="image" image="IMG_2826.JPG"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8K-IQ-HKr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="ngd-hs-TuM" kind="embed" id="Qdk-rW-bkO"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nfE-1f-fH7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0wL-ZW-Vx0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6q-bS-ma4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17213.043478260872" y="-1568.3035714285713"/>
+        </scene>
         <!--Table View Controller-->
         <scene sceneID="FM6-fr-UNF">
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="ngd-hs-TuM" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="uv6-CK-vqf">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="static" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" id="uv6-CK-vqf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="0.78209994486625622" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection headerTitle="宮崎駿電影列表(按年份）🎞" id="xKc-Uh-7Yp">
                                 <cells>
@@ -55,6 +88,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="All-JN-S4H" kind="show" id="M75-Tg-lL1"/>
                                         </connections>
@@ -94,6 +128,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="QWL-q4-3C2" kind="show" id="JhM-9v-hHJ"/>
                                         </connections>
@@ -102,7 +137,7 @@
                                         <rect key="frame" x="0.0" y="834" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lMS-Nz-nQY" id="RdI-13-cS0">
-                                            <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z2Z-fN-RS6">
@@ -133,6 +168,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="mzR-QR-TA8" kind="show" id="3UH-tb-Hd7"/>
                                         </connections>
@@ -172,6 +208,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="xGm-LU-msw" kind="show" id="nta-GE-Q7X"/>
                                         </connections>
@@ -211,6 +248,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="DUt-WS-5fc" kind="show" id="5Eg-hI-qMS"/>
                                         </connections>
@@ -250,6 +288,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="Gks-R2-fvZ" kind="show" id="lGA-b2-LI5"/>
                                         </connections>
@@ -289,6 +328,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="VLP-tX-ShF" kind="show" id="9Ba-5t-qIv"/>
                                         </connections>
@@ -328,6 +368,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="XUG-g8-c9d" kind="show" id="OVD-s0-C2O"/>
                                         </connections>
@@ -367,6 +408,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="KoW-ED-E7R" kind="show" id="ADh-AZ-cpV"/>
                                         </connections>
@@ -406,6 +448,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="s4O-OE-5nq" kind="show" id="YXf-Ka-msh"/>
                                         </connections>
@@ -445,6 +488,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="XkU-gx-QZh" kind="show" id="toW-lL-BWp"/>
                                         </connections>
@@ -452,6 +496,12 @@
                                 </cells>
                             </tableViewSection>
                         </sections>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <nil key="backgroundColor"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <nil key="separatorColor"/>
+                        </variation>
                         <connections>
                             <outlet property="dataSource" destination="ngd-hs-TuM" id="uwL-31-ZoB"/>
                             <outlet property="delegate" destination="ngd-hs-TuM" id="2Sd-xX-8ad"/>
@@ -461,14 +511,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bse-sF-R2A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16960.869565217392" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="17871.014492753624" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cgq-p1-Rzg">
             <objects>
                 <viewController id="All-JN-S4H" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A89-rs-DFV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxv-IN-gYV">
@@ -519,14 +569,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFL-bg-BCy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17668.115942028988" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="18578.26086956522" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vud-4u-DzB">
             <objects>
                 <viewController id="VLP-tX-ShF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4cO-Tr-bbW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-If-96d">
@@ -602,14 +652,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5mg-gf-2U9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21447.826086956524" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="22357.971014492756" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pbE-cQ-VyU">
             <objects>
                 <viewController id="XUG-g8-c9d" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8lx-xZ-ep9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bO1-8R-fCo">
@@ -684,14 +734,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gu9-qd-B2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22060.869565217392" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="22971.014492753624" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="B2e-x4-Vh6">
             <objects>
                 <viewController id="KoW-ED-E7R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bM4-Zq-bqy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bgw-ly-s7s">
@@ -763,14 +813,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbA-N6-WfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22715.942028985508" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="23626.08695652174" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lFF-De-HoR">
             <objects>
                 <viewController id="s4O-OE-5nq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9z9-88-Pjz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yxf-yb-ikV">
@@ -838,14 +888,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3G-gK-SDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23334.782608695656" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="24244.927536231888" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="47r-Nb-bN5">
             <objects>
                 <viewController id="XkU-gx-QZh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2Z-hf-nxi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2v8-o9-aTY">
@@ -913,14 +963,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8U5-IZ-gh8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23971.014492753624" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="24881.159420289856" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cWZ-3I-kFn">
             <objects>
                 <viewController id="QWL-q4-3C2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NhS-i7-L9P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9y-zh-hyR">
@@ -999,14 +1049,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXo-rl-Q9x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18297.101449275364" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="19207.246376811596" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kdc-du-fNK">
             <objects>
                 <viewController id="mzR-QR-TA8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nX0-vC-fq8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5o-8M-Eba">
@@ -1084,14 +1134,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="01y-YV-KNE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18931.884057971016" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="19842.028985507248" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HLw-Rv-qAh">
             <objects>
                 <viewController id="xGm-LU-msw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gOa-DC-0Ok">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ke-p9-Nbf">
@@ -1161,14 +1211,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NDX-rY-Sg8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19566.666666666668" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="20476.8115942029" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qfh-9v-rX8">
             <objects>
                 <viewController id="DUt-WS-5fc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lUS-9Y-qUr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ndE-Rn-Vel">
@@ -1236,14 +1286,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPS-FB-Udh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20184.057971014496" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="21094.202898550728" y="-1568.3035714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pF7-i7-X1q">
             <objects>
                 <viewController id="Gks-R2-fvZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K5v-ef-qLs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bty-Gl-Ypn">
@@ -1315,7 +1365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qi-Z7-4JT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20818.840579710148" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="21728.98550724638" y="-1568.3035714285713"/>
         </scene>
         <!--電影圖片及主題曲                    -->
         <scene sceneID="Eh5-mK-1RQ">
@@ -1916,13 +1966,13 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U0i-lU-5UP"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="電影圖片及主題曲                    " id="4rg-6p-Tw4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbe-ZX-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16961" y="-893"/>
+            <point key="canvasLocation" x="18531.884057971016" y="-877.23214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X5G-7P-2u8">
@@ -2006,7 +2056,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbh-Ej-WOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18297" y="-893"/>
+            <point key="canvasLocation" x="19205.797101449276" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gsz-K9-TZy">
@@ -2052,7 +2102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOy-7B-MjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17668" y="-271"/>
+            <point key="canvasLocation" x="18576.8115942029" y="-271.20535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8g1-rg-xbY">
@@ -2062,75 +2112,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ha-Ou-b0x">
-                                <rect key="frame" x="122" y="250" width="170" height="70"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al3-9k-esu">
+                                <rect key="frame" x="-40" y="-58" width="300" height="1001"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="龍貓" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background"/>
-                                    <color key="baseForegroundColor" red="0.8666666666666667" green="0.44313725490196076" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAa-1L-0nS">
-                                <rect key="frame" x="122" y="360" width="170" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="魔女宅急便" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background"/>
-                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAL-GA-Dkq">
-                                <rect key="frame" x="122" y="470" width="170" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="神隱少女" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background"/>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpp-tU-nsQ">
-                                <rect key="frame" x="122" y="580" width="170" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="霍爾的移動城堡" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background"/>
-                                    <color key="baseForegroundColor" systemColor="systemTealColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemTealColor"/>
-                                </buttonConfiguration>
-                            </button>
+                                <imageReference key="image" image="無臉男"/>
+                            </imageView>
                             <view contentMode="scaleToFill" id="KAw-b9-rCN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bug-Iq-bEs">
-                                        <rect key="frame" x="122" y="360" width="170" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ha-Ou-b0x">
+                                        <rect key="frame" x="215" y="275" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="魔女宅急便" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="tinted" title="龍貓" cornerStyle="capsule">
                                             <backgroundConfiguration key="background"/>
-                                            <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
-                                            <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                            <color key="baseForegroundColor" red="0.8666666666666667" green="0.44313725490196076" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="LDK-6X-nD3" kind="show" id="Hwu-oy-jFq"/>
+                                            <segue destination="TYt-BS-Qwr" kind="show" id="BSV-tb-yfy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q78-V8-0Je">
-                                        <rect key="frame" x="122" y="470" width="170" height="70"/>
+                                        <rect key="frame" x="215" y="360" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2145,7 +2152,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96t-i7-9FM">
-                                        <rect key="frame" x="122" y="580" width="170" height="70"/>
+                                        <rect key="frame" x="215" y="445" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2159,11 +2166,6 @@
                                             <segue destination="djR-Au-ID2" kind="show" id="Dcq-Yu-06R"/>
                                         </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UUr-aW-UgV">
-                                        <rect key="frame" x="0.0" y="122" width="280" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.93618789830000004" green="0.81354548319999997" blue="0.90698347359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="九宮格小遊戲 🎮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ey-Kh-cFU">
                                         <rect key="frame" x="0.0" y="130" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2173,39 +2175,29 @@
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hP7-Ae-Mht">
-                                        <rect key="frame" x="134" y="168" width="280" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.93618789830000004" green="0.81354548319999997" blue="0.90698347359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU0-4l-vAR">
-                                        <rect key="frame" x="122" y="250" width="170" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bug-Iq-bEs">
+                                        <rect key="frame" x="215" y="530" width="170" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.92357516129999995" green="0.60451066409999998" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="龍貓" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="tinted" title="魔女宅急便" cornerStyle="capsule">
                                             <backgroundConfiguration key="background"/>
-                                            <color key="baseForegroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="baseBackgroundColor" red="0.86666666670000003" green="0.4431372549" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                            <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="TYt-BS-Qwr" kind="show" id="CZG-rJ-eHN"/>
+                                            <segue destination="LDK-6X-nD3" kind="show" id="Hwu-oy-jFq"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="nrP-ug-Ub7"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VGj-1T-MBS">
-                                <rect key="frame" x="0.0" y="124" width="280" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93618789830000004" green="0.81354548319999997" blue="0.90698347359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="九宮格小遊戲 🎮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JO-tC-WJU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⛩ 九宮格小遊戲 ⛩" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JO-tC-WJU">
                                 <rect key="frame" x="0.0" y="130" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.985710565110127" green="1" blue="0.81136611682678017" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.42972680294152465" green="0.36542339072894242" blue="0.27544785824513762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -2213,13 +2205,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QKI-wV-GBm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="hf5-TM-jsG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZwO-Gj-71l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16880" y="402"/>
+            <point key="canvasLocation" x="17788.405797101452" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RPR-hr-fox">
@@ -2576,7 +2568,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaz-qZ-sJc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20472" y="402"/>
+            <point key="canvasLocation" x="21381.159420289856" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fGm-7m-gHP">
@@ -2933,7 +2925,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCf-uS-SnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19799" y="402"/>
+            <point key="canvasLocation" x="20708.695652173916" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8p2-5b-Drv">
@@ -3290,7 +3282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5BT-fu-66D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19174" y="402"/>
+            <point key="canvasLocation" x="20084.057971014496" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qPw-kl-hab">
@@ -3647,7 +3639,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCu-LV-HfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17622" y="402"/>
+            <point key="canvasLocation" x="18531.884057971016" y="401.78571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rll-8Q-4gH">
@@ -3707,7 +3699,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTA-TY-Ph6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18295.652173913044" y="-271.20535714285711"/>
+            <point key="canvasLocation" x="19205.797101449276" y="-271.20535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IRH-M3-8QG">
@@ -3791,7 +3783,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyH-sL-Pm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21448" y="-893"/>
+            <point key="canvasLocation" x="22357.971014492756" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tq2-E3-yd1">
@@ -3875,7 +3867,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8He-oi-uhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22061" y="-893"/>
+            <point key="canvasLocation" x="22971.014492753624" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m0n-Mv-SEd">
@@ -3959,7 +3951,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-ol-nAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23335" y="-893"/>
+            <point key="canvasLocation" x="24244.927536231888" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yxL-gp-2oK">
@@ -4043,7 +4035,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbe-Mh-akZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22716" y="-893"/>
+            <point key="canvasLocation" x="23626.08695652174" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rV0-1J-Jfg">
@@ -4127,7 +4119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOc-w4-vGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23971" y="-893"/>
+            <point key="canvasLocation" x="24879.71014492754" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6qA-KE-WC0">
@@ -4236,7 +4228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfO-36-w6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18932" y="-893"/>
+            <point key="canvasLocation" x="19842.028985507248" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XVy-hr-Acw">
@@ -4345,7 +4337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iy-pK-FNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19567" y="-893"/>
+            <point key="canvasLocation" x="20476.8115942029" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F6r-y7-QvI">
@@ -4454,7 +4446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPp-aR-JCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20184" y="-893"/>
+            <point key="canvasLocation" x="21092.753623188408" y="-893.30357142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DST-wR-ReD">
@@ -4563,7 +4555,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4X-KJ-CCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20819" y="-893"/>
+            <point key="canvasLocation" x="21728.98550724638" y="-893.30357142857133"/>
         </scene>
         <!--Item-->
         <scene sceneID="JUc-Q9-rRe">
@@ -4599,48 +4591,6 @@
             </objects>
             <point key="canvasLocation" x="5213.04347826087" y="-1941.2946428571427"/>
         </scene>
-        <!--圖片及音樂-->
-        <scene sceneID="a1r-x1-m7k">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Dfu-xc-loC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="圖片及音樂" id="NsJ-k8-DfT">
-                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tGk-NL-Nfx">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="nb2-Zd-JU0" kind="relationship" relationship="rootViewController" id="Jhk-hh-Kh5"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SDp-X5-ZGg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16051" y="-893"/>
-        </scene>
-        <!--電影簡介-->
-        <scene sceneID="fus-Bt-eF9">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="gPH-Z4-YRu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="電影簡介" id="uOb-em-Rm9">
-                        <imageReference key="image" image="book.fill" catalog="system" symbolScale="large"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SZw-cQ-RWI">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="ngd-hs-TuM" kind="relationship" relationship="rootViewController" id="Osl-Du-ytV"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lw1-mB-BdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16050.72463768116" y="-1568.3035714285713"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SJR-fR-0yF">
             <objects>
@@ -4653,41 +4603,84 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="gPH-Z4-YRu" kind="relationship" relationship="viewControllers" id="aOQ-20-fZp"/>
-                        <segue destination="Dfu-xc-loC" kind="relationship" relationship="viewControllers" id="OG3-Df-dgz"/>
-                        <segue destination="iQG-6A-MCC" kind="relationship" relationship="viewControllers" id="SIt-1i-HPY"/>
+                        <segue destination="edo-UP-sBX" kind="relationship" relationship="viewControllers" id="3rj-AS-MRR"/>
+                        <segue destination="aCy-AN-JHG" kind="relationship" relationship="viewControllers" id="8oK-Mw-j8j"/>
+                        <segue destination="iME-1G-h1c" kind="relationship" relationship="viewControllers" id="FlS-m6-rh3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HjZ-LS-YmY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15045" y="-1227"/>
         </scene>
-        <!--小遊戲-->
-        <scene sceneID="uQS-pI-lHt">
+        <!--電影簡介-->
+        <scene sceneID="mtT-4v-uBa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iQG-6A-MCC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="小遊戲" id="aBJ-R6-d1V">
-                        <imageReference key="image" image="gamecontroller.fill" catalog="system" symbolScale="large"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="edo-UP-sBX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="電影簡介" id="Jh8-4e-CCL">
+                        <imageReference key="image" image="book.fill" catalog="system" symbolScale="large"/>
+                        <imageReference key="selectedImage" image="book.fill" catalog="system"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iOm-KJ-jbF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bnu-DR-Aez">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vWq-56-LRd" kind="relationship" relationship="rootViewController" id="Ntp-tk-kuU"/>
+                        <segue destination="Yf0-ny-U3U" kind="relationship" relationship="rootViewController" id="moF-Vl-GxF"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sWw-9c-Kg1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2U-lX-9Fm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16051" y="402"/>
+            <point key="canvasLocation" x="16051" y="-1568"/>
+        </scene>
+        <!--圖片及音樂-->
+        <scene sceneID="inB-Qp-ihH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aCy-AN-JHG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="圖片及音樂" id="EyM-go-TJG">
+                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3zG-OA-d37">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nb2-Zd-JU0" kind="relationship" relationship="rootViewController" id="czB-Mc-ZGf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VpD-kU-ijX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16051" y="-877"/>
+        </scene>
+        <!--小遊戲-->
+        <scene sceneID="04N-AY-6uj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iME-1G-h1c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="小遊戲" id="U4k-WO-gwW">
+                        <imageReference key="image" image="gamecontroller.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g6Q-t5-KWz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vWq-56-LRd" kind="relationship" relationship="rootViewController" id="Rdu-H3-f4h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7s-HM-NST" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16051" y="306"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="jjg-zH-BI4"/>
         <segue reference="jhU-AG-IcP"/>
-        <segue reference="i0n-60-1gg"/>
+        <segue reference="B6H-93-edr"/>
         <segue reference="KNQ-Qv-mVm"/>
         <segue reference="VHf-k6-mCv"/>
         <segue reference="qLL-Kh-dZT"/>
@@ -4706,6 +4699,7 @@
         <image name="IMG_2823" width="414" height="615"/>
         <image name="IMG_2824" width="414" height="615"/>
         <image name="IMG_2825" width="414" height="615"/>
+        <image name="IMG_2826.JPG" width="1000" height="1500"/>
         <image name="IMG_2827" width="414" height="615"/>
         <image name="IMG_2828" width="414" height="615"/>
         <image name="IMG_2830" width="414" height="615"/>
@@ -4840,6 +4834,7 @@
         <image name="《龍貓》" width="1190" height="1701"/>
         <image name="久石讓" width="2100" height="2805"/>
         <image name="宮崎駿" width="640" height="797"/>
+        <image name="無臉男" width="440" height="782"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
