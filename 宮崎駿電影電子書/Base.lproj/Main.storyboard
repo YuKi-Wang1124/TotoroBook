@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Movies-->
         <scene sceneID="r8b-Vx-Fzg">
             <objects>
                 <viewController id="Yf0-ny-U3U" sceneMemberID="viewController">
@@ -33,32 +33,49 @@
                         <viewLayoutGuide key="safeArea" id="nfE-1f-fH7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0wL-ZW-Vx0"/>
+                    <navigationItem key="navigationItem" title="Movies" largeTitleDisplayMode="never" id="0wL-ZW-Vx0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u6q-bS-ma4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17213.043478260872" y="-1568.3035714285713"/>
+            <point key="canvasLocation" x="16841" y="-1569"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="FM6-fr-UNF">
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="ngd-hs-TuM" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="static" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" id="uv6-CK-vqf">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="static" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" id="uv6-CK-vqf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="0.78209994486625622" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="AUn-Uc-9D4">
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="phS-iw-O3V">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="輸入電影名稱" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IOi-oN-rzr">
+                                    <rect key="frame" x="49" y="10" width="260" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmX-ch-BSU">
+                                    <rect key="frame" x="317" y="9" width="49" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain">
+                                        <imageReference key="image" image="magnifyingglass" catalog="system"/>
+                                        <color key="baseForegroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                </button>
+                            </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <sections>
                             <tableViewSection headerTitle="宮崎駿電影列表(按年份）🎞" id="xKc-Uh-7Yp">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="5cP-iT-ObH">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="5cP-iT-ObH">
                                         <rect key="frame" x="0.0" y="94" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5cP-iT-ObH" id="Szt-f4-RRo">
@@ -98,7 +115,7 @@
                                             <segue destination="All-JN-S4H" kind="show" id="M75-Tg-lL1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="X5P-4v-XTj">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="X5P-4v-XTj">
                                         <rect key="frame" x="0.0" y="486" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X5P-4v-XTj" id="5Rc-FU-dNi">
@@ -138,11 +155,11 @@
                                             <segue destination="QWL-q4-3C2" kind="show" id="JhM-9v-hHJ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="lMS-Nz-nQY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="lMS-Nz-nQY">
                                         <rect key="frame" x="0.0" y="878" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lMS-Nz-nQY" id="RdI-13-cS0">
-                                            <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z2Z-fN-RS6">
@@ -178,11 +195,11 @@
                                             <segue destination="mzR-QR-TA8" kind="show" id="3UH-tb-Hd7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="FFI-I2-cAW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="FFI-I2-cAW">
                                         <rect key="frame" x="0.0" y="1270" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FFI-I2-cAW" id="HSM-1M-3If">
-                                            <rect key="frame" x="0.0" y="0.0" width="395" height="392"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="392"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xlu-1W-IMS">
@@ -218,7 +235,7 @@
                                             <segue destination="xGm-LU-msw" kind="show" id="nta-GE-Q7X"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="fVg-dW-5KM">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="fVg-dW-5KM">
                                         <rect key="frame" x="0.0" y="1662" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fVg-dW-5KM" id="Lld-LK-nhl">
@@ -258,7 +275,7 @@
                                             <segue destination="DUt-WS-5fc" kind="show" id="5Eg-hI-qMS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="i4h-gr-WDb">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="i4h-gr-WDb">
                                         <rect key="frame" x="0.0" y="2054" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i4h-gr-WDb" id="xRD-9N-aLG">
@@ -298,7 +315,7 @@
                                             <segue destination="Gks-R2-fvZ" kind="show" id="lGA-b2-LI5"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="nYy-QR-CSD">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="nYy-QR-CSD">
                                         <rect key="frame" x="0.0" y="2446" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nYy-QR-CSD" id="Hc3-H7-Bp2">
@@ -338,7 +355,7 @@
                                             <segue destination="VLP-tX-ShF" kind="show" id="9Ba-5t-qIv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="Hg5-oY-Trl">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="Hg5-oY-Trl">
                                         <rect key="frame" x="0.0" y="2838" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hg5-oY-Trl" id="EjR-jb-zRJ">
@@ -378,7 +395,7 @@
                                             <segue destination="XUG-g8-c9d" kind="show" id="OVD-s0-C2O"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="aEv-af-3zn">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="aEv-af-3zn">
                                         <rect key="frame" x="0.0" y="3230" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aEv-af-3zn" id="9L6-7E-4ra">
@@ -418,7 +435,7 @@
                                             <segue destination="KoW-ED-E7R" kind="show" id="ADh-AZ-cpV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="h27-kG-FXQ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="h27-kG-FXQ">
                                         <rect key="frame" x="0.0" y="3622" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h27-kG-FXQ" id="AeY-l1-vZJ">
@@ -458,7 +475,7 @@
                                             <segue destination="s4O-OE-5nq" kind="show" id="YXf-Ka-msh"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="OAF-af-faJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="392" id="OAF-af-faJ">
                                         <rect key="frame" x="0.0" y="4014" width="414" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OAF-af-faJ" id="sPH-bU-IFu">
@@ -1372,7 +1389,7 @@
             </objects>
             <point key="canvasLocation" x="21728.98550724638" y="-1568.3035714285713"/>
         </scene>
-        <!--View Controller-->
+        <!--Photos & Music-->
         <scene sceneID="1Vt-E0-tI0">
             <objects>
                 <viewController id="laL-6Y-GLX" sceneMemberID="viewController">
@@ -1380,6 +1397,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-AL-AR8">
+                                <rect key="frame" x="-50" y="-31" width="716" height="958"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <imageReference key="image" image="天空之城手機桌布"/>
+                            </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQ8-o7-mfu">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -1387,23 +1409,17 @@
                                     <segue destination="nb2-Zd-JU0" kind="embed" id="xxs-4m-RDg"/>
                                 </connections>
                             </containerView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-AL-AR8">
-                                <rect key="frame" x="-50" y="-31" width="716" height="958"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="天空之城手機桌布"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rrF-iD-dkn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uXS-jL-BXz"/>
+                    <navigationItem key="navigationItem" title="Photos &amp; Music" largeTitleDisplayMode="never" id="uXS-jL-BXz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dxh-Fq-wOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18743.478260869568" y="-877.23214285714278"/>
+            <point key="canvasLocation" x="16841" y="-862"/>
         </scene>
-        <!--電影圖片及主題曲                    -->
+        <!--View Controller-->
         <scene sceneID="Eh5-mK-1RQ">
             <objects>
                 <viewController modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="nb2-Zd-JU0" sceneMemberID="viewController">
@@ -1691,19 +1707,6 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="2000" height="275"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-ZE-v94" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
-                                                                <rect key="frame" x="15" y="27" width="180" height="180"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
-                                                                    <backgroundConfiguration key="background" imageContentMode="scaleAspectFill">
-                                                                        <imageReference key="image" image="thumb-nausicaa009"/>
-                                                                    </backgroundConfiguration>
-                                                                </buttonConfiguration>
-                                                                <connections>
-                                                                    <segue destination="HCx-Xl-6Kp" kind="show" id="y4Y-FG-K3M"/>
-                                                                </connections>
-                                                            </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="《風之谷》" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlw-qP-V3H">
                                                                 <rect key="frame" x="16" y="214" width="180" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1891,6 +1894,19 @@
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-ZE-v94" customClass="ImageButton" customModule="宮崎駿電影電子書" customModuleProvider="target">
+                                                                <rect key="frame" x="32" y="26" width="180" height="180"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                                                                    <backgroundConfiguration key="background" imageContentMode="scaleAspectFill">
+                                                                        <imageReference key="image" image="thumb-nausicaa009"/>
+                                                                    </backgroundConfiguration>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="HCx-Xl-6Kp" kind="show" id="y4Y-FG-K3M"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <viewLayoutGuide key="safeArea" id="dal-lp-t4j"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2008,11 +2024,11 @@
                         <viewLayoutGuide key="safeArea" id="U0i-lU-5UP"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" title="電影圖片及主題曲                    " id="4rg-6p-Tw4"/>
+                    <navigationItem key="navigationItem" id="4rg-6p-Tw4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbe-ZX-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19442.028985507248" y="-877.23214285714278"/>
+            <point key="canvasLocation" x="17871" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X5G-7P-2u8">
@@ -2096,7 +2112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbh-Ej-WOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20115.942028985508" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="19204" y="-863"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gsz-K9-TZy">
@@ -2142,9 +2158,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOy-7B-MjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19486.956521739132" y="-271.20535714285711"/>
+            <point key="canvasLocation" x="18578" y="-220"/>
         </scene>
-        <!--View Controller-->
+        <!--Games-->
         <scene sceneID="8g1-rg-xbY">
             <objects>
                 <viewController id="vWq-56-LRd" sceneMemberID="viewController">
@@ -2226,7 +2242,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⛩ 九宮格小遊戲 ⛩" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JO-tC-WJU">
-                                <rect key="frame" x="0.0" y="130" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="180" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -2238,11 +2254,11 @@
                         <viewLayoutGuide key="safeArea" id="QKI-wV-GBm"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hf5-TM-jsG"/>
+                    <navigationItem key="navigationItem" title="Games" largeTitleDisplayMode="never" id="hf5-TM-jsG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZwO-Gj-71l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17788.405797101452" y="401.78571428571428"/>
+            <point key="canvasLocation" x="16841" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RPR-hr-fox">
@@ -2599,7 +2615,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eaz-qZ-sJc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20554" y="402"/>
+            <point key="canvasLocation" x="20478" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fGm-7m-gHP">
@@ -2956,7 +2972,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCf-uS-SnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19881" y="402"/>
+            <point key="canvasLocation" x="19843" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8p2-5b-Drv">
@@ -3313,7 +3329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5BT-fu-66D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19206" y="402"/>
+            <point key="canvasLocation" x="19207" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qPw-kl-hab">
@@ -3670,7 +3686,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCu-LV-HfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18531.884057971016" y="401.78571428571428"/>
+            <point key="canvasLocation" x="18580" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rll-8Q-4gH">
@@ -3730,7 +3746,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTA-TY-Ph6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20115.942028985508" y="-271.20535714285711"/>
+            <point key="canvasLocation" x="19207" y="-220"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IRH-M3-8QG">
@@ -3814,7 +3830,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TyH-sL-Pm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23268.115942028988" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="22358" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tq2-E3-yd1">
@@ -3898,7 +3914,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8He-oi-uhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23881.159420289856" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="22971" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m0n-Mv-SEd">
@@ -3982,7 +3998,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-ol-nAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25155.07246376812" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="24245" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yxL-gp-2oK">
@@ -4066,7 +4082,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbe-Mh-akZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24536.231884057972" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="23626" y="-863"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rV0-1J-Jfg">
@@ -4150,7 +4166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOc-w4-vGG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25789.855072463772" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="24881" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6qA-KE-WC0">
@@ -4259,7 +4275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfO-36-w6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20752.17391304348" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="19842" y="-863"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XVy-hr-Acw">
@@ -4368,7 +4384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iy-pK-FNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21386.956521739132" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="20477" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F6r-y7-QvI">
@@ -4477,7 +4493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPp-aR-JCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22002.89855072464" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="21094" y="-862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DST-wR-ReD">
@@ -4586,7 +4602,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4X-KJ-CCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22639.130434782612" y="-893.30357142857133"/>
+            <point key="canvasLocation" x="21729" y="-862"/>
         </scene>
         <!--Item-->
         <scene sceneID="JUc-Q9-rRe">
@@ -4628,10 +4644,17 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="eU8-XR-eiL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="vMh-MD-cma"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ess-sr-QRa">
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ess-sr-QRa">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" systemColor="labelColor"/>
+                        <color key="selectedImageTintColor" red="0.0" green="0.46000000000000002" blue="0.063706170940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <tabBarAppearance key="scrollEdgeAppearance" backgroundEffect="regular">
+                            <color key="backgroundColor" red="0.92719968450000001" green="0.95988626190000004" blue="0.87735226099999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </tabBarAppearance>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <color key="selectedImageTintColor" red="0.0" green="0.46000000000000002" blue="0.063706170940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </variation>
                     </tabBar>
                     <connections>
                         <segue destination="edo-UP-sBX" kind="relationship" relationship="viewControllers" id="3rj-AS-MRR"/>
@@ -4646,17 +4669,38 @@
         <!--電影簡介-->
         <scene sceneID="mtT-4v-uBa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="edo-UP-sBX" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="edo-UP-sBX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="電影簡介" id="Jh8-4e-CCL">
-                        <imageReference key="image" image="book.fill" catalog="system" symbolScale="large"/>
+                        <imageReference key="image" image="book.fill" catalog="system" symbolScale="medium"/>
                         <imageReference key="selectedImage" image="book.fill" catalog="system"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bnu-DR-Aez">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" largeTitles="YES" id="bnu-DR-Aez">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.45882352939999999" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImageContentMode="right">
+                            <color key="backgroundColor" red="0.92719968450000001" green="0.95988626190000004" blue="0.87735226099999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" red="0.59029176829999996" green="0.76939731840000003" blue="0.57993852530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </textAttributes>
+                            <barButtonItemAppearance key="backButtonAppearance">
+                                <barButtonItemStateAppearance key="normal">
+                                    <textAttributes key="titleTextAttributes">
+                                        <color key="textColor" red="0.59029176829999996" green="0.76939731840000003" blue="0.57993852530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </textAttributes>
+                                    <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                </barButtonItemStateAppearance>
+                                <barButtonItemStateAppearance key="highlighted"/>
+                                <barButtonItemStateAppearance key="disabled"/>
+                                <barButtonItemStateAppearance key="focused"/>
+                            </barButtonItemAppearance>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zB1-mS-Ga2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="Yf0-ny-U3U" kind="relationship" relationship="rootViewController" id="moF-Vl-GxF"/>
                     </connections>
@@ -4668,14 +4712,52 @@
         <!--小遊戲-->
         <scene sceneID="04N-AY-6uj">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iME-1G-h1c" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="iME-1G-h1c" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="小遊戲" id="U4k-WO-gwW">
-                        <imageReference key="image" image="gamecontroller.fill" catalog="system" symbolScale="large"/>
+                        <imageReference key="image" image="gamecontroller.fill" catalog="system" symbolScale="medium"/>
+                        <imageReference key="selectedImage" image="gamecontroller.fill" catalog="system"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g6Q-t5-KWz">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="g6Q-t5-KWz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.45882352939999999" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImageContentMode="scaleAspectFit">
+                            <color key="backgroundColor" red="0.92719968453190893" green="0.95988626191110327" blue="0.87735226100338981" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" red="0.59215686270000001" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </textAttributes>
+                            <barButtonItemAppearance key="buttonAppearance">
+                                <barButtonItemStateAppearance key="normal">
+                                    <textAttributes key="titleTextAttributes">
+                                        <color key="textColor" red="0.59215686270000001" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </textAttributes>
+                                </barButtonItemStateAppearance>
+                                <barButtonItemStateAppearance key="highlighted"/>
+                                <barButtonItemStateAppearance key="disabled"/>
+                                <barButtonItemStateAppearance key="focused"/>
+                            </barButtonItemAppearance>
+                            <barButtonItemAppearance key="doneButtonAppearance">
+                                <barButtonItemStateAppearance key="normal">
+                                    <textAttributes key="titleTextAttributes">
+                                        <color key="textColor" red="0.59215686270000001" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </textAttributes>
+                                </barButtonItemStateAppearance>
+                                <barButtonItemStateAppearance key="highlighted"/>
+                                <barButtonItemStateAppearance key="disabled"/>
+                                <barButtonItemStateAppearance key="focused"/>
+                            </barButtonItemAppearance>
+                            <barButtonItemAppearance key="backButtonAppearance">
+                                <barButtonItemStateAppearance key="normal">
+                                    <textAttributes key="titleTextAttributes">
+                                        <color key="textColor" red="0.59215686270000001" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </textAttributes>
+                                </barButtonItemStateAppearance>
+                                <barButtonItemStateAppearance key="highlighted"/>
+                                <barButtonItemStateAppearance key="disabled"/>
+                                <barButtonItemStateAppearance key="focused"/>
+                            </barButtonItemAppearance>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -4684,19 +4766,37 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7s-HM-NST" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16051" y="306"/>
+            <point key="canvasLocation" x="16099" y="450"/>
         </scene>
         <!--圖片及音樂-->
         <scene sceneID="IOn-pi-R5L">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VPa-5Y-yAi" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="VPa-5Y-yAi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="圖片及音樂" id="sdl-Oq-Q2I">
-                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="large"/>
+                        <imageReference key="image" image="music.note.list" catalog="system" symbolScale="medium"/>
+                        <imageReference key="selectedImage" image="music.note.list" catalog="system"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TGv-fF-ORI">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="TGv-fF-ORI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.45882352939999999" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImageContentMode="scaleAspectFill">
+                            <color key="backgroundColor" red="0.92719968450000001" green="0.95988626190000004" blue="0.87735226099999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" red="0.59215686270000001" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </textAttributes>
+                            <barButtonItemAppearance key="backButtonAppearance">
+                                <barButtonItemStateAppearance key="normal">
+                                    <textAttributes key="titleTextAttributes">
+                                        <color key="textColor" red="0.59029176829999996" green="0.76939731840000003" blue="0.57993852530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </textAttributes>
+                                </barButtonItemStateAppearance>
+                                <barButtonItemStateAppearance key="highlighted"/>
+                                <barButtonItemStateAppearance key="disabled"/>
+                                <barButtonItemStateAppearance key="focused"/>
+                            </barButtonItemAppearance>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -4738,6 +4838,7 @@
         <image name="IMG_2832" width="414" height="615"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="gamecontroller.fill" catalog="system" width="128" height="80"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <image name="photo.on.rectangle.angled" catalog="system" width="128" height="100"/>
         <image name="thumb-chihiro006" width="300" height="162"/>

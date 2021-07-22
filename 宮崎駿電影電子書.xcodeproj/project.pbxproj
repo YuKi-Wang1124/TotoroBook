@@ -14,6 +14,7 @@
 		CC1093C3269FFB5000FF88B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1093C2269FFB5000FF88B2 /* Assets.xcassets */; };
 		CC1093C6269FFB5000FF88B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1093C4269FFB5000FF88B2 /* LaunchScreen.storyboard */; };
 		CC92BBD426A54D1B0005CD9F /* IMG_2826.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CC92BBD326A54D1B0005CD9F /* IMG_2826.JPG */; };
+		CCAA433226A9D9F400881732 /* navigationnbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAA433126A9D9F400881732 /* navigationnbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CC1093C5269FFB5000FF88B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1093C7269FFB5000FF88B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC92BBD326A54D1B0005CD9F /* IMG_2826.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2826.JPG; sourceTree = "<group>"; };
+		CCAA433126A9D9F400881732 /* navigationnbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationnbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CC1093C2269FFB5000FF88B2 /* Assets.xcassets */,
 				CC1093C4269FFB5000FF88B2 /* LaunchScreen.storyboard */,
 				CC1093C7269FFB5000FF88B2 /* Info.plist */,
+				CCAA433126A9D9F400881732 /* navigationnbar.png */,
 				CC92BBD326A54D1B0005CD9F /* IMG_2826.JPG */,
 			);
 			path = "宮崎駿電影電子書";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1093C6269FFB5000FF88B2 /* LaunchScreen.storyboard in Resources */,
+				CCAA433226A9D9F400881732 /* navigationnbar.png in Resources */,
 				CC92BBD426A54D1B0005CD9F /* IMG_2826.JPG in Resources */,
 				CC1093C3269FFB5000FF88B2 /* Assets.xcassets in Resources */,
 				CC1093C1269FFB4B00FF88B2 /* Main.storyboard in Resources */,
